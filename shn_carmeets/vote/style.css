@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    overflow: hidden;
+    background-color: rgba(51, 63, 68, 1);
+    background-image: radial-gradient(circle, rgba(51, 63, 68, 1) 0%, rgba(26, 26, 27, 1) 100%);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    user-select: none;
+    text-shadow: 4px 4px 9px #272727;
+    font-size: 3dvh;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.TopText{
+    display: flex;
+    justify-content: center;
+    font-size: 5dvh;
+    text-align: center;
+    margin-top: 20dvh;
+}
+
+.BotText{
+    display: flex;
+    justify-content: center;
+    color: rgb(179, 179, 179);
+    margin-top: 1dvh;
+    font-size: 2dvh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.adminpanel{
+    position: absolute;
+    right: 0;
+    margin: 3dvh;
+}
+
+.fa-meteor{
+    color: #5A5A5A;
+}
+
+.fa-solid{
+    text-decoration: none;
+}
+
+.copy-container{
+    display: flex;
+    justify-content: center;
+}
+
+.copyright{
+    position: absolute;
+    bottom: 0;
+    margin: 1.75dvh;
+    font-size: 2dvh;
+    color:rgba(14, 637, 504, 0.5);
+    text-shadow: #175f7e;
+}
+
+.plate-conainer{
+    display: flex;
+    justify-content: center;
+}
+
+.plate { 
+    position: relative;
+    margin-top: 7dvh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+	height: 8.77dvh;
+    width: 40dvh;
+	color: #000;
+    font-size: 8dvh;
+	border: 0.4dvh solid black;
+	border-radius: 1dvh;
+    background-color: white;
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+.PL{
+    height: 7.8dvh;
+    margin: 0.3dvh;
+    position: relative;
+    width: 8.2%;
+    background-color: #061BFE;
+    border-radius: 0.8dvh 0 0 0.8dvh;
+}
+
+.Login-input{
+    text-align: center;
+    position: relative;
+    border: none;
+    height: 7.5dvh;
+    font-size: 8dvh;
+    width: 32dvh;
+    background: none;
+    color: #000;
+	font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    z-index: 11;
+}
+
+.border{
+    height: 7.5dvh;
+    margin: 0.3dvh;
+    width: 38.5dvh;
+    position: absolute;
+    border: 0.5dvh solid black;
+    border-radius: 0.8dvh;
+    z-index: 10;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 3dvh;
+}
+
+.button{
+    width: 15dvh; 
+    height: 4.5dvh;
+    background-color: rgba(26, 26, 27, 1);
+    box-shadow: inset 8px 8px 24px 0px rgba(0, 0, 0, 1);
+    border-radius: 0.5dvh;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.button-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5dvh;
+}
+
+.button:hover{
+    transition: 0.5s;
+    background-color:#039487;
+    box-shadow: none;
+}
+
+.button:focus{
+    transition: 0.5s;
+    animation:normal 1s button;
+}
+
+@keyframes button {
+    25%{
+        transform: scale(0.90);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.stars{
+}
+
+.Zatwierdź{
+    display: none;
+}
+
+.Zatwierdź{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.Zatwierdź-input{
+    border-radius: 50%;
+    border: solid white 0.5dvh;
+    height: 7dvh;
+    width: 7dvh;
+    margin-top: 3dvh;
+    background-color: #039487;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    cursor:pointer;
+    font-size: 4dvh;
+    text-shadow: 4px 4px 9px rgba(66, 68, 90, 1.0);
+    transition: 0.3s;
+}
+
+*:focus {
+    outline: none;
+}

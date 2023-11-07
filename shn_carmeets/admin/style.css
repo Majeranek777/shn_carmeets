@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    overflow: hidden;
+    background-color: rgba(51, 63, 68, 1);
+    background-image: radial-gradient(circle, rgba(51, 63, 68, 1) 0%, rgba(26, 26, 27, 1) 100%);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    user-select: none;
+    text-shadow: 4px 4px 9px #272727;
+    font-size: 30px;
+}
+
+.copy-container{
+    display: flex;
+    justify-content: center;
+}
+
+.copyright{
+    position: absolute;
+    bottom: 0;
+    margin: 1.75dvh;
+    font-size: 2dvh;
+    color:rgba(14, 637, 504, 0.5);
+    text-shadow: #175f7e;
+}
+
+.Main{
+    display: flex;
+    justify-content: center;
+}
+
+.TopText{
+    font-size: 40px;
+    text-align: center;
+}
+
+.TopText-text{
+    margin: 0;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.text{
+    margin:0;
+}
+
+.Container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 25vh;
+    border-radius: 20px;
+    background-color: #333f44;
+    padding: 20px;
+    padding-top: 15px;
+    border:#66BEE3;
+    border-style: solid;
+    box-shadow: 10px 14px 100px -5px rgba(14, 637, 504, 0.8);
+}
+
+.Password{
+    margin-top: 20px;
+}
+
+.Zatwierdź{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.Login-input{
+    border-radius: 0.5dvh;
+    background-color: #66BEE3;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    border: none;
+    padding-left: 5px;
+    box-shadow: 4px 4px 6px rgba(23,97,127, 1.0);
+    text-shadow: 4px 4px 9px rgba(66, 68, 90, 1);
+    transition: 0.3s;
+}
+
+.Password-input{
+    border-radius: 5px;
+    background-color: #66BEE3;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: black;
+    border: none;
+    padding-left: 5px;
+    box-shadow: 4px 4px 6px rgba(23,97,127, 1.0);
+    text-shadow: 4px 4px 9px rgba(66, 68, 90, 1);
+    transition: 0.3s;
+}
+
+.Zatwierdź-input{
+    border-radius: 5px;
+    background-color: #27a2d5;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    cursor:pointer;
+    font-size: 25px;
+    text-shadow: 4px 4px 9px rgba(66, 68, 90, 1.0);
+    transition: 0.3s;
+}
+
+.Zatwierdź-input:hover{
+    background-color: #175f7e;
+}
+
+.Password-input:hover{
+    background-color: #428eaf;
+}
+
+.Login-input:hover{
+    background-color: #428eaf;
+}
+
+.Zatwierdź-input:active{
+    /* background-color:aquamarine; */
+/*     background-color: #ff0000; */
+    color:#272727;
+}
+
+*:focus {
+    outline: none;
+}
+
+#particles-js{
+    width: 100%;
+    height: 90%;
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }

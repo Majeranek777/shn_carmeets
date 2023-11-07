@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="smoothCaret.min.js" defer></script>
+    <title>Login</title>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="Main">
+        <div class="Container">
+            <form class="form" spellcheck="false" action="http://localhost:3000/" method="post">
+                <div class="TopText">
+                    <p class="TopText-text">Zaloguj się</p>
+                </div>
+                    <div class="Login">
+                        <p class="text Login-text">Login:</p>
+                        <div class="sc-container">
+                            <input data-sc="" class="Login-input smoothCaretInput" type="text" required label="login" name="login">
+                            <div class="caret" style="width: 2px; height: 60%; background-color: #0095E6; box-shadow: 4px 4px 6px rgba(23,97,127, 1.0);" ></div>
+                        </div>
+                    </div>
+                    <div class="Password">
+                        <p class="text Password-text">Hasło:</p>
+                        <div class="sc-container">
+                            <input data-sc="" class="Password-input smoothCaretInput" type="password" required label="password" name="password">
+                            <div class="caret" style="width: 2px; height: 60%; background-color: #ff5a5a; box-shadow: 4px 4px 6px rgba(23,97,127, 1.0);" ></div>
+                        </div>
+                    </div>
+                <div class="Zatwierdź">
+                    <Button class="Zatwierdź-input" type="button submit" onclick="Button()">Zatwierdź</Button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+    <div class="copy-container">
+        <div class="copyright">Powered by SHN<sup>™</sup></div>
+    </div>
+</body>
+<script>
+    function Button(){
+    }
+</script>
+</html>

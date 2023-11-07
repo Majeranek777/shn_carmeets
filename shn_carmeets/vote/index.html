@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="emoji.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fortawesome.com/kits/1ce05b4b/publications/124411/woff2.css" media="all">
+    <title>Login</title>
+</head>
+<body>
+    <div class="adminpanel">
+        <a href="../admin/index.html"><i class="fa-solid fa-meteor"></i></a>
+    </div>
+
+    <div class="container">
+        <div class="Text">
+            <div class="TopText">
+                <span>Najgłośniejszy wydech</span>
+            </div>
+            <div class="BotText">
+                <span>Weź udział w głosowaniu!</span>
+            </div>
+        </div>
+
+        <form class="form" spellcheck="false" action="http://localhost:80/" method="post">
+            <div class="plate-conainer">
+                <div class="plate">
+                    <div class ="border"></div>
+                        <div class="PL"></div>
+                        <div class="text-container">
+                                <input data-sc="" class="Login-input" type="text" required label="plate" name="plate" maxlength="7" spellcheck="false" autofocus="true" placeholder="EL 9V118">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stars">
+                <div class="feedback">
+                    <label class="angry" required label="feedback" name="feedback">
+                        <input type="radio" value="1" name="feedback" />
+                        <div>
+                            <svg class="eye left">
+                                <use xlink:href="#eye">
+                            </svg>
+                            <svg class="eye right">
+                                <use xlink:href="#eye">
+                            </svg>
+                            <svg class="mouth">
+                                <use xlink:href="#mouth">
+                            </svg>
+                        </div>
+                    </label>
+                    <label class="sad">
+                        <input type="radio" value="2" name="feedback" />
+                        <div>
+                            <svg class="eye left">
+                                <use xlink:href="#eye">
+                            </svg>
+                            <svg class="eye right">
+                                <use xlink:href="#eye">
+                            </svg>
+                            <svg class="mouth">
+                                <use xlink:href="#mouth">
+                            </svg>
+                        </div>
+                    </label>
+                    <label class="ok">
+                        <input type="radio" value="3" name="feedback" />
+                        <div></div>
+                    </label>
+                    <label class="good">
+                        <input type="radio" value="4" name="feedback" checked />
+                        <div>
+                            <svg class="eye left">
+                                <use xlink:href="#eye">
+                            </svg>
+                            <svg class="eye right">
+                                <use xlink:href="#eye">
+                            </svg>
+                            <svg class="mouth">
+                                <use xlink:href="#mouth">
+                            </svg>
+                        </div>
+                    </label>
+                    <label class="happy">
+                        <input type="radio" value="5" name="feedback" />
+                        <div>
+                            <svg class="eye left">
+                                <use xlink:href="#eye">
+                            </svg>
+                            <svg class="eye right">
+                                <use xlink:href="#eye">
+                            </svg>
+                        </div>
+                    </label>
+                </div>
+                        
+                <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7 4" id="eye">
+                        <path d="M1,1 C1.83333333,2.16666667 2.66666667,2.75 3.5,2.75 C4.33333333,2.75 5.16666667,2.16666667 6,1"></path>
+                    </symbol>
+                    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 7" id="mouth">
+                        <path d="M1,5.5 C3.66666667,2.5 6.33333333,1 9,1 C11.6666667,1 14.3333333,2.5 17,5.5"></path>
+                    </symbol>
+                </svg>
+
+                <div class="button-container">
+                    <button class="button" type="button submit">
+                        <span class="button-text">Wyślij</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="Zatwierdź">
+                <Button class="Zatwierdź-input" type="button submit"><i class="fa-solid fa-check"></i></Button>
+            </div>
+        </form>
+
+        <div class="copy-container">
+            <div class="copyright">Powered by SHN<sup>™</sup></div>
+        </div>
+    </div>
+</body>
+<script>
+    function Button(){
+    }
+</script>
+</html>

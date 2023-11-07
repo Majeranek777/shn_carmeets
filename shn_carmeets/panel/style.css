@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    overflow: hidden;
+    background-color: rgba(51, 63, 68, 1);
+    background-image: radial-gradient(circle, rgba(51, 63, 68, 1) 0%, rgba(26, 26, 27, 1) 100%);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    user-select: none;
+    text-shadow: 4px 4px 9px #272727;
+    font-size: 3dvh;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+.Text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 30dvh;
+    padding: 1dvh;
+}
+
+.TopText{
+    display: flex;
+    justify-content: center;
+    font-size: 3dvh;
+    text-align: center;
+}
+
+.button-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5dvh;
+}
+
+.button:hover{
+    transition: 0.5s;
+    background-color:#039487;
+    box-shadow: none;
+}
+
+.button:focus{
+    transition: 0.5s;
+    animation:normal 1s button;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.adminpanel{
+    position: absolute;
+    right: 0;
+    margin: 3dvh;
+}
+
+.fa-meteor{
+    color: #5A5A5A;
+}
+
+.fa-solid{
+    text-decoration: none;
+}
+
+.copy-container{
+    display: flex;
+    justify-content: center;
+}
+
+.copyright{
+    position: absolute;
+    bottom: 0;
+    margin: 1.75dvh;
+    font-size: 2dvh;
+    color:rgba(14, 637, 504, 0.5);
+    text-shadow: #175f7e;
+}
+
+*:focus {
+    outline: none;
+}
